@@ -56,6 +56,7 @@ RUN kobweb export --notty
 #-----------------------------------------------------------------------------
 # Create the final stage, which contains just enough bits to run the Kobweb
 # server.
+#
 FROM java as run
 
 ARG KOBWEB_APP_ROOT
